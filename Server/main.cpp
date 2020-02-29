@@ -13,6 +13,7 @@ void ShowErrorMessage(string message)	// 오류나면 메세지 출력 후 종료.
 
 int main()
 {
+	cout << "[ TCP Echo Server Ver0.2 ]\n";
 	WSADATA wsaData;
 	SOCKET serverSocket, clientSocket;
 	SOCKADDR_IN serverAddress, clientAddress;
